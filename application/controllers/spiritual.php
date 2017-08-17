@@ -44,19 +44,7 @@ class spiritual extends CI_Controller {
       //  $this->load->view('footer', $data);
     }
 
-   
-    function forgot() {
-
-        $data['title'] = 'Nata password ';
-        if (isset($_POST['email'])) {
-            $data['password'] = $this->user_model->get_password();
-        }
-        $this->load->view("login/forgot_password.php", $data);
-    }
-
-    
-
-    public function registration() {
+      public function registration() {
         $this->load->library('form_validation');
         // field name, error message, validation rules
         $this->form_validation->set_rules('user_name', 'User Name', 'trim|required|min_length[4]|xss_clean');
