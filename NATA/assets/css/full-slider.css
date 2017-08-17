@@ -1,0 +1,30 @@
+
+html, body {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+.carousel{
+	height: 60%; background:#999;
+	background:url(../images/5.jpg) 0 0 no-repeat;
+	background-size:cover;
+}
+.item, .active {
+	height: 100%; width:100%; margin:0 auto;}
+.carousel-inner {
+	height: 100%;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+	width: 80%;
+	height: 100%;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	margin:0px auto;
+}
+footer {
+	margin: 0px 0;
+}

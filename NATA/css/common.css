@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* ======organize-chart================= */
+.organize-chart {
+	margin-bottom: 20px;
+}
+.nata-org-logo img {
+	margin: 0 auto;
+}
+.board-btn {
+	font-size: 18px;
+	font-weight: 400;
+	background: #900;
+	border-radius: 0px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.31);
+	margin: 0px 0px 20px;
+}
+.organize-chart a:hover {
+	font-size: 18px;
+	font-weight: 400;
+	background: #963;
+	border-radius: 0px;
+	color: #FFF;
+}
+.advisory-btn, .excutive-btn {
+	font-size: 18px;
+	font-weight: 400;
+	background: #900;
+	border-radius: 0px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.31);
+	margin: 20px 0px 0px;
+}
+.standing-btn {
+	font-size: 18px;
+	font-weight: 400;
+	background: #900;
+	border-radius: 0px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.31);
+	margin-top: 20px;
+}
+.honorary-btn {
+	font-size: 18px;
+	font-weight: 400;
+	background: #900;
+	border-radius: 0px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.31);
+	margin-top: 20px;
+}
+.regional-btn, .regional-co-btn {
+	font-size: 18px;
+	font-weight: 400;
+	background: #900;
+	border-radius: 0px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.31);
+	margin: 20px 0px 0px;
+}
+.north-btn, .west-btn, .central-btn, .east-btn, .south-btn {
+	font-size: 18px;
+	font-weight: 400;
+	background: #900;
+	border-radius: 0px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.31);
+	margin: 20px 0px 0px;
+}
+.horizental-line {
+	background: url(../img/horizontal-line-big.png) 0px 40px no-repeat;
+	margin-left: -72px;
+}
+.line-vertical-bottom {
+	background: url(../img/vertical-line.png) center bottom no-repeat
+}
+.line-vertical-top {
+	margin: 0px 0px 0px;
+	background: url(../img/vertical-line-big.png) center top no-repeat
+}
+.border-top {
+	border-top: solid 4px #039
+}
+.border-right {
+	border-right: solid 3px #039;
+	height: 50px;
+}
+.border-center {
+	background: url(../img/vertical-line-big.png) center center no-repeat;
+	height: 80px;
+}
+.hidden-md {
+	display: none !important;
+	width: 0px;
+}
+ @media (min-width: 320px) and (max-width: 640px) {
+
+	 .horizental-line {background:none}
+.border-center {
+	background: url(../img/vertical-line-big.png) right center no-repeat;
+	height: 80px;
+}
+.line-vertical-top {
+}
+.advisory-btn {
+	margin-top:0px;
+}
+.excutive-btn {
+	margin-top:0px;
+}
+
+.standing-btn {
+	position:relative;
+	left:60%;
+}
+.honorary-btn {
+	font-size:13px;
+	position:relative;
+	left:30%;
+}
+}
+ @media (min-width: 640px) and (max-width: 767px) {
+	 .horizental-line {background:none}
+.standing-btn {
+	position:relative;
+	left:60%;
+}
+.honorary-btn {
+	position:relative;
+	left:30%;
+}
+}
+ @media (min-width: 768px) and (max-width: 1199px) {
+.horizental-line {
+	background: url(../img/horizontal-line-big.png) 0px 40px no-repeat;
+	margin-left: -61px;
+}
+.line-vertical-bottom {
+	background: url(../img/vertical-line.png) center bottom no-repeat
+}
+.line-vertical-top {
+	margin: 0px 0px 0px;
+	background: url(../img/vertical-line-big.png) center top no-repeat
+}
+.border-top {
+	border-top: solid 4px #039
+}
+.border-right {
+	border-right: solid 3px #039;
+	height: 50px;
+}
+.border-center {
+	background: url(../img/vertical-line-big.png) center center no-repeat;
+	height: 80px;
+}
+}

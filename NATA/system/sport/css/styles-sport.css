@@ -1,0 +1,143 @@
+/*@charset "utf-8";*/
+img, object, embed, video {max-width: 100%;}
+.ie6 img {width:100%;}
+
+/********************* GLOBAL ***************/
+.home-page{background:#FFF}
+p{font-family:"Raleway"; font-size:13px; font-weight:400; line-height:22px;}
+h1, h2, h3, h4, h5, h6{font: "Raleway"; margin:0}
+.margin-top-40{margin-top:40px;}
+.margin-top-80{margin-top:80px;}
+.margin-bottom-40{padding:40px 0}
+.margin-bottom-10{margin-bottom:10px}
+hr {border-top:1px dotted #999; margin:0 0 10px;}
+.padding-bottom-10{padding-bottom:10px;}
+.padding-bottom-20{padding-bottom:20px;}
+.padding-bottom-40{padding-bottom:40px;}
+.padding-top-10{padding-top:10px;}
+.padding-top-20{padding-top:20px;}
+.padding-top-40{padding-top:40px;}
+.padding-top-80{padding-top:80px;}
+.padding-top-120{padding-top:120px;}
+.border-dot-top{border-top:1px dotted #CCC}
+.border-dot-bottom{border-bottom:1px dotted #CCC; margin-bottom:15px; margin-top:10px;}
+.margin-both{margin-bottom:20px; margin-top:20px}
+.padding-both{padding:10px 0 10px}
+
+/*================== HEADER ================*/
+.pre-header{background:url(../../img/header-bg1.jpg) 0px 0px repeat-x; border-bottom:1px solid #666}
+.pre-header .container{background:url(../../img/flag-watermark.png) center center no-repeat; }
+#header{border-bottom: 1px solid #999; background:#F0F0F0}	
+#header .container-fluid{padding:0}
+.phone-icon{padding:5px 0px 0px;}
+.phone-icon p{margin-bottom:0px !important; font-size:15px; font-weight:500;}
+.phone-icon img{margin:0 auto}
+.phone-icon.text-center.hidden-xs span{font-size:13px;}
+
+/*================== NAV BAR ================*/
+
+.navbar{border:none; box-shadow:none;background:#F0F0F0;height: 46px; border-radius:0}
+.nata-logo img{ margin-top:-110px; padding-top:5px;}
+.navbar-brand, .navbar-nav > li > a{text-shadow:none; width:99%; padding-left:21px; padding-right:21px; text-transform:uppercase; letter-spacing:0.1px; font-weight:500; }
+.navbar-default .navbar-nav > .homeLink > a:hover, .navbar-default .navbar-nav > .homeLink > .active {color:#069;}
+.navbar-default .navbar-nav > .nataLink > a:hover, .navbar-default .navbar-nav > .nataLink > .active {color:#639}
+.navbar-default .navbar-nav > .mediaLink > a:hover, .navbar-default .navbar-nav > .mediaLink > .active {color:#690}
+.navbar-default .navbar-nav > .galleryLink > a:hover, .navbar-default .navbar-nav > .galleryLink > .active {color:#06F}
+.navbar-default .navbar-nav > .servicesLink > a:hover, .navbar-default .navbar-nav > .servicesLink > .active {color:#099}
+.navbar-default .navbar-nav > .eventsLink > a:hover, .navbar-default .navbar-nav > .eventsLink > .active {color:#F06}
+.navbar-default .navbar-nav > .membershipLink > a:hover, .navbar-default .navbar-nav > .membershipLink > .active {color:#066}
+.navbar-default .navbar-nav > .projectsLink > a:hover, .navbar-default .navbar-nav > .projectsLink > .active {color:#939}
+.navbar-default .navbar-nav > .youthLink > a:hover, .navbar-default .navbar-nav > .youthLink > .active {color:#090}
+.navbar-default .navbar-nav > .teluguLink > a:hover, .navbar-default .navbar-nav > .teluguLink > .active {color:#00F}
+.margin-both img{ margin:0 auto}
+.sponser img{box-shadow:0px 0px 5px rgba(0,0,0,.51)}.companies li{color:#FFF; letter-spacing:.3px; border-radius:20px; box-shadow:0px 0px 8px 1px rgba(0,0,0,0.5); font-weight:600; background:#800000; border:1px solid #FFF; display:inline-block; padding:5px 8px;}.companies {margin-top:5px;}.scroll-tabs{height: 300px; overflow: hidden; margin:10px auto; width: 275px;}.scroll-tabs li{ text-align: center;}	.sponser1{ background:url(../images/sponsors.jpg) 0px 0px no-repeat;  height:90px;}.sponser2{ background:url(../images/sponsors.jpg) 0px -90px no-repeat;  height:90px;}.sponser3{ background:url(../images/sponsors.jpg) 0px -180px no-repeat;  height:100px;}.sponser4{ background:url(../images/sponsors.jpg) 0px -285px no-repeat;  height:95px;}.sponser5{ background:url(../images/sponsors.jpg) 0px -380px no-repeat;  height:140px;}.sponser6{ background:url(../images/sponsors.jpg) 0px -520px no-repeat;  height:125px;}
+/**********Menu Styles***************/
+.homeLink{background:#069;}
+.nataLink{background:#639;}
+.mediaLink{background:#690;}
+.galleryLink{background:#06F;}
+.servicesLink{background:#099;}
+.eventsLink{background:#F06;}
+.membershipLink{background:#066;}
+.projectsLink{background:#939;}
+.youthLink{background:#090;}
+.teluguLink{background:#00F;}
+
+/*================== CONTENT AREA ================*/
+/*===========Breadcrumb==============*/
+.breadcrumb-bg{background:#C33; border-bottom:4px  solid rgba(0,0,0,0.5)}
+.breadcrumb{ border-radius:0; margin:0; background:transparent; margin:0	}
+.breadcrumb a{color:#F99}
+.breadcrumb a:hover{color:#fff}
+.breadcrumb .active{color:#FFF}
+
+.marquee{color:#FF0; font-size:18px;  margin: 10px 0px 0px;}
+
+.inner-content{ background:#FFF; box-shadow:0px 5px 8px 0px rgba(0,0,0,0.2); padding:15px; padding-bottom:0}
+.inner-page{border-top:2px solid #C90;}
+
+.latest-videos{border-left:1px dotted #CCC}
+.latest-news{border-bottom:1px dotted #999; margin-bottom:10px;}
+.news-block h5,.latest-videos h5, .tv-coverage h5{margin-bottom:10px;}
+
+.news-heading, .news-heading1{border-bottom:4px solid #F33; margin-bottom:15px;}
+.news-heading h4{background: #F33;color: #fff;text-align: center;padding: 10px;margin: 0;display: inline-block;}
+
+.commitee img {border:4px solid #F66; text-align:center; margin:0 auto}
+.commitee h5{margin:10px auto; color:#333}
+.commitee h4{ margin:0px 15px 10px; background:#C93; display:block; color:#FFF; padding:5px;}
+
+/**********accordion********/
+.accordion-toggle { text-decoration:none}
+
+.glyphicon-plus {text-decoration:none;ont-size: 14px;margin-right: 10px;text-align: center;
+/*background-color: #01d1a3;border-radius: 100px;fheight: 28px;line-height: 28px;width: 28px;*/}
+.glyphicon-minus {text-decoration:none;font-size: 14px;margin-right: 10px;text-align: center;/*background-color: #13bb96;border-radius: 100px;height: 28px;line-height: 28px;width: 28px;*/}
+
+.panel-default > .panel-heading.saturday{background:#00a580 !important; color:#FFF; text-shadow:1px 1px 0px rgba(0,0,0,.5); padding:0px;}
+.panel-default > .panel-heading.sunday{background:#e19c08 !important; color:#FFF; text-shadow:1px 1px 0px rgba(0,0,0,.5); padding:0px;}
+.panel-default > .panel-heading a{text-decoration:none}
+.panel-title{padding:10px 10px; color: #FFF;}
+.panel-body{border:1px solid #00a580}
+.panel-body.sunday-body{border:1px solid #e19c08}
+.panel-body .table {margin-bottom: 0px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif} 
+
+.table-hover > tbody > tr:hover {background-color:#F4E8D0; color:#C60}
+
+.points-table tr th{ background:#999; color:#FFF}
+.points-table tr:nth-child(3), .points-table tr:nth-child(5), .points-table tr:nth-child(7){ background:#EEE; color:#333}
+.points-table tr th{ background:#999; color:#FFF}
+/*================== FOOTER ================*/
+.pre-footer{background:url(../../img/footer-bg.jpg) center bottom repeat; color:#fff;}
+.footer-links{ padding:20px 0 5px; }
+.footer-links h5{margin:5px 0px; text-transform:uppercase; color:#FFC}
+.footer-links ul{padding-left:0px}
+.footer-links li {list-style:none}
+.footer-links li a{color:#C99;font-weight:300;}
+.footer{padding:30px 0 10px; font-size:11px; color:#C33; font-weight:normal}
+.footer a{color:#990}
+
+/*==================Gallery Styles================*/
+
+
+/*====================FORM STYLES===================*/
+
+
+
+@media only screen and (min-width: 481px) {
+	
+}
+@media (min-width: 320px) and (max-width: 640px) {
+}
+
+
+@media only screen and (min-width: 769px) {
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+/*====================================*/

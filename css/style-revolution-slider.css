@@ -1,0 +1,220 @@
+/* BEDIN REVOLUTION SLIDER */
+.revolution-slider {
+	z-index: 1;
+	position: relative;
+	border-bottom: solid 1px #eee;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.fullwidthbanner-container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	overflow: hidden;
+}
+.tp-bannershadow {
+	display: none;
+}
+.tp-bullets.simplebullets.round .bullet {
+	width: 12px;
+	height: 12px;
+	border-radius: 50% !important;
+	background: #d8d8d8;
+}
+.tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected {
+	background: #919191;
+}
+.slide_title_white {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font: 300 47px/66px "Roboto", sans-serif;
+}
+.slide_title_white_bold {
+	font-weight: 400;
+}
+.slide_subtitle_white {
+	border-top: 1px solid #fff !important;
+	border-bottom: 1px solid #fff !important;
+	font: 300 18px/25px "Roboto", sans-serif;
+	padding: 5px 10px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.slider-colored {
+	z-index: 1;
+	height: 495px !important;
+	position: relative;
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px #eee;
+}
+.slide_title, .slide_subtitle, .slide_desc, .slide_btn {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.slide_title {
+	font: 300 47px/66px "Roboto", sans-serif;
+	color: #3f5862;
+	text-transform: uppercase;
+}
+.slide_subtitle {
+	font: 400 18px/25px "Roboto", sans-serif;
+	background: #E84D1C;
+	padding: 5px;
+	color: #fafafa;
+	text-transform: uppercase;
+}
+.slide_list_item {
+	font: 400 14px/20px "Roboto", sans-serif;
+	background: #E84D1C;
+	padding: 5px;
+	color: #fafafa;
+	text-transform: uppercase;
+}
+.slide_desc {
+	color: #7b8793;
+	font-size: 14px;
+	line-height: 25px;
+}
+.slide_desc_bordered {
+	border-left: 3px solid #ddd !important;
+	padding-left: 5px;
+}
+.slide_btn {
+	font: 300 14px/14px "Roboto", sans-serif;
+	background: #6fc561;
+	padding: 7px 15px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.tp-leftarrow.default, .tp-rightarrow.default {
+	opacity: 0.7;
+}
+.tp-leftarrow.default:hover, .tp-rightarrow.default:hover {
+	opacity: 1;
+}
+.revolution-slider .hidearrows {
+	opacity: 0;
+}
+.page-full-slider {
+	position: relative;
+	width: 100%;
+	background-color: #003399;
+	overflow: hidden;
+	border-bottom: 1px solid #900
+}
+.page-inner-slider {
+	position: relative;
+	left: 50%;
+	width: 5000px;
+	text-align: center;
+	margin-left: -2500px;
+}
+.container-slider {
+	position: relative;
+	margin: 0 auto;
+	top: 0px;
+	left: 0px;
+	width: 1066px;
+	height: 300px;
+	background: url(../img/main_bg.jpg) top center no-repeat;
+}
+.sliders {
+	cursor: move;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1066px;
+	height: 300px;
+	overflow: hidden;
+}
+/* jssor slider arrow navigator skin 07 css */
+/*
+.jssora07l              (normal)
+.jssora07r              (normal)
+.jssora07l:hover        (normal mouseover)
+.jssora07r:hover        (normal mouseover)
+.jssora07ldn            (mousedown)
+.jssora07rdn            (mousedown)
+*/
+.jssora07l, .jssora07r, .jssora07ldn, .jssora07rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+}
+.jssora07l {
+	background-position: 0px -4px;
+	width: 50px;
+	height: 50px;
+	top: 123px;
+	left: 8px;
+}
+.jssora07r {
+	background-position: -50px -5px;
+	width: 50px;
+	height: 50px;
+	top: 123px;
+	right: 8px
+}
+.jssora07l:hover, .jssora07l:focus {
+	background-position: 0px -4px;
+}
+.jssora07r:hover, .jssora07r:focus {
+	background-position: -50px -5px;
+}
+.jssora07ldn {
+	background-position: -245px -35px;
+}
+.jssora07rdn {
+	background-position: -305px -35px;
+}
+/* jssor slider thumbnail navigator skin 04 css */
+/*
+.jssort04 .p            (normal)
+.jssort04 .p:hover      (normal mouseover)
+.jssort04 .pav          (active)
+.jssort04 .pav:hover    (active mouseover)
+.jssort04 .pdn          (mousedown)
+*/
+.jssort04 .w, .jssort04 .pav:hover .w {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	box-shadow: 0px 2px 2px #333
+}
+.thumb-jssort04 {
+	position: absolute;
+	width: 400px;
+	height: 60px;
+	right: 0px;
+	bottom: -20px;
+}
+* html .jssort04 .w {
+	width: /**/ 60px;
+	height: /**/ 30px;
+}
+.prototype-p {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	top: 0;
+	left: 0;
+}/*
+.jssort04 .pdn .w, .jssort04 .pav .w{border-style: solid;}
+.jssort04 .c{width: 62px;height: 32px;filter: alpha(opacity=45);opacity: .45;transition: opacity .6s;-moz-transition: opacity .6s;
+    -webkit-transition: opacity .6s;    -o-transition: opacity .6s;}*/
+.jssort04 .p:hover .c, .jssort04 .p:active .c, .jssort04 .pav .c {
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+.jssort04 .p:hover .c {
+	transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+}

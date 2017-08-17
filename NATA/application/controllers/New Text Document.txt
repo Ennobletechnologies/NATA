@@ -1,0 +1,14 @@
+
+<?php
+
+public function register() {
+        $data['title'] = 'Nata user registration';
+        $data['keywords'] = '';
+        $data['description'] = '';
+        $data['projects'] = $this->projects_model->get_projects();
+        $this->load->view('index', $data);
+        $this->load->view("login/registration_view.php", $data);
+        $this->load->view('footer', $data);
+    }
+
+?>

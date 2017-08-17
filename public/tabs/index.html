@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Care for design - jQuery : Plugin tytabs</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="tytabs.jquery.min.js"></script>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	
+	$("#tabsholder2").tytabs({
+							prefixtabs:"tabz",
+							prefixcontent:"contentz",
+							classcontent:"tabscontent",
+							tabinit:"3",
+							catchget:"tab2",
+							fadespeed:"normal"
+							});
+});
+-->
+</script>
+
+<style type="text/css">
+<!--
+
+
+.marginbot {
+
+}
+
+ul.list li {
+list-style-type:none;
+
+}
+
+ul.tabs {
+width:342px;
+margin:0px; padding:0px;}
+
+ul.tabs li {
+list-style-type:none;
+display:block;
+float:left;
+color:#5a5a5a;
+width:110px;
+font-family:Verdana, Geneva, sans-serif; font-size:12px;
+padding:6px 0px 0px 3px;
+height:22px;
+border-right:1px solid #cccccc;
+background-color:#f0f0f0;
+border-top:3px solid #cccccc;
+
+cursor:pointer;
+}
+
+ul.tabs li:hover {
+background-color:#f0f0f0;
+color:#000;
+}
+
+ul.tabs li.current {
+border-top:3px solid #006699;
+background-color:#f0f0f0;
+width:110px;
+color:#000;
+height:22px;padding:6px 0px 0px 3px;
+}
+
+.tabscontent {
+border-top:1px solid #dedede;
+padding:8px 0 0 0;
+display:none;
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+line-height:22px;
+height:191px;
+
+text-align:justify;
+}
+#contentz1{height:191px; background-color:#066; width:342px;}
+#contentz2{height:191px; background-color:#006699; width:342px;}
+#contentz3{height:191px; background-color:#ccc; width:342px;}
+-->
+</style>
+</head>
+
+<body>
+
+    <div id="tabsholder2" style="width:342px; height:191px;">
+        <ul class="tabs">
+            <li id="tabz1">PHOTO GALLERY</li>
+            <li id="tabz2">VIDEO GALLERY</li>
+            <li id="tabz3" style="border-right:none;">EXCLUSIVES</li>
+            
+        </ul>
+        <div class="contents marginbot">
+            <div id="contentz1" class="tabscontent">
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In vel sem risus. Aenean vulputate, dui quis dignissim scelerisque, magna justo dapib sed purus condimentum accumsan. Nam congue, neque eu ultrices lobortis, neque ante vehicula massa, pulvinar venenatis leo elit ut orci.
+			</div>
+
+            <div id="contentz2" class="tabscontent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ante arcu, lacinia quis varius vel, pharetra eu sapien. Nulla dictum tincidu Morbi sed dictum sapien.
+            </div>
+            <div id="contentz3" class="tabscontent">
+            Donec eu velit ante, non dapibus nibh. Praesent condimentum ipsum eu ligula elementum pretium. Nullam vel mi odio, non tincidunt lorem. Etiam pulvinar eleifend velit non ornare. Etiam neque ante, posuere vitae bibendum ac, varius non augue. Sed cursus commodo dapibus. Nullam sed feugiat doloatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </div>
+           
+        </div>
+
+    
+    <!-- /Tabs2 -->
+</div>
+
+</body>
+</html>

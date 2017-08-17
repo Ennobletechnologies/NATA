@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px
+}
+.mt10 {
+	margin-top: 10px
+}
+.mt20 {
+	margin-top: 20px
+}
+.mt40 {
+	margin-top: 40px
+}
+.mt50 {
+	margin-top: 50px
+}
+.mt60 {
+	margin-top: 60px
+}
+.mt80 {
+	margin-top: 80px
+}
+.mt100 {
+	margin-top: 100px
+}
+.mb10 {
+	margin-bottom: 10px
+}
+.mb20 {
+	margin-bottom: 20px
+}
+.mb40 {
+	margin-bottom: 40px
+}
+.mb60 {
+	margin-bottom: 60px
+}
+.mb80 {
+	margin-bottom: 80px
+}
+.mb100 {
+	margin-bottom: 100px
+}
+.pt10 {
+	padding-top: 10px
+}
+.pt20 {
+	padding-top: 20px
+}
+.pt40 {
+	padding-top: 40px
+}
+.pb10 {
+	padding-bottom: 10px
+}
+.pb20 {
+	padding-bottom: 20px
+}
+.pb40 {
+	padding-bottom: 40px
+}
+.pa10 {
+    padding: 10px
+}
+.bold {
+	font-weight: 600
+}
+.event-menu a {
+	border: 1px solid #ddd;
+	display: block;
+	width: 10%;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 12px;
+	color: #FFF;
+	text-decoration: none;
+	background: #F33;
+}
+@media (min-width:320px) and (max-width:640px) {
+.event-menu a {
+	width: 40%
+}
+}
+.thumbnail {
+}
+.date-price {
+	position: absolute;
+	top: 40%;
+	color: #FFF;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+	width: 90%;
+    font-family:'Raleway';
+}
+.date-price a {
+	color: #FFF;
+	text-decoration: none;
+    font-family:'Raleway';
+}
+.dates {
+	width: 40%;
+	border: 1px solid #ddd;
+	padding: 15px 5px;
+	border: 1px solid rgba(255,255,255,.5);
+	transition: all ease-in .2s;
+	display: inline-block;
+    font-family:'Raleway';
+}
+.prices {
+	display: inline-block;
+	width: 40%;
+	border: 1px solid rgba(255,255,255,.5);
+	padding: 15px 5px;
+	transition: all ease-in .2s;
+    font-family:'Raleway';
+}
+.dates:hover, .prices:hover {
+	background: rgba(255,255,255,.2);
+	border-color: rgba(255,255,255,1)
+}
+.event-details {
+	
+}
+.event-name {
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 500;
+	color: #C33;
+	text-transform: capitalize;
+	font-family:Raleway;
+}
+.booking-btn .btn {
+	border: 1px solid #FF8080;
+	background: #C33;
+	color: #FFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 12px;
+	transition: all .2s ease-in;
+	font-weight: 500;
+}
+.booking-btn .btn:hover {
+	background: #C44
+}
+.booking-btn {
+/*text-align: right !important;
+	padding-right: 10px;*/
+}
+.inner-carousel {
+	height: 30%;
+	overflow: hidden;
+    border-bottom:4px solid rgba(0,0,0,0.2)
+}
+.inner-slider img {
+	width: 100%;   margin:-55px 0px 0px;}
+}
+.event-heading {
+	display: block;
+	position: absolute;
+	top: 30%;
+	color: #FFF;
+}
+.event-heading > h5 {
+	color: #CCC;
+	font-weight: 400
+}
+.event-heading > p a {
+	color: #FFF
+}
+.tickets-tab {
+	padding: 10px 0px;
+}
+.tickets-tab a {
+	border-bottom: 2px solid #096;
+	color: #333;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.navigation .breadcrumb li a{color:#036}
+ul, li, p {
+	font-size: 13px;
+	font-weight: 400
+}
+.table-events.table.table-striped tbody td:first-child {
+	font-weight: 600 !important;
+	color: #399 !important;
+}
+.table-events.table.table-striped tbody td {
+	padding: 20px 10px;
+}
+.hint {
+	color: #999;
+	font-size: 12px;
+	padding: 5px 0px;
+	line-height: 10px
+}
+.navigarion hr {
+	border-color: #CCC
+}
+.breadcrumb {
+	color: #666
+}
+.contact-heading {
+	border-bottom: 2px solid #44A7AC;
+	color: #2B757D;
+	padding-bottom: 10px;
+}
+form .input-md {
+	height: 40px;
+	font-size: 12px;
+	letter-spacing: .5px;
+	font-weight: 600
+}
+.contact-details, .order-summary {
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+.order-summary h2 {
+	margin-top: 0px;
+}
+.order-summary table {
+	margin-bottom: 0px;
+}
+.order-summary .table.table-striped td {
+	padding: 10px;
+}
+.order-summary .table.table-striped td .bold {
+	line-height: 20px;
+}
+/* 31/12/15  */
+.mail-head {
+	background: #444;
+	height: 10px;
+}
+.customer-head {
+	display: inline-block;
+	height: auto;
+}
+.mail-head span {
+	color: #fff;
+	font-size: 18px;
+	margin-left: 10px;
+	line-height: 60px;
+	font-weight: 600;
+}
+.mail-head p {
+	color: #ccc;
+	font-size: 12px;
+	margin: 20px;
+	line-height: 0px;
+	font-weight: 600;
+	text-align: right;
+}
+.customer-head p {
+	color: #666;
+	font-size: 14px;
+	margin: 10px;
+	line-height: 10px;
+}
+.customer { /*margin-top:35px;*/
+}
+.customer-info {
+	border-top:1px solid #ddd;
+	background: #f2f2f2;
+	margin-bottom: 10px;
+}
+.customer-info p {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 13px;
+	color: #555;
+}
+.customer-info h3 {
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 0px;
+}
+.orders {
+	height: auto;
+	width: 98%;
+	background: #444;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.orders h3 {
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 20px;
+	line-height: 25px;
+	width: 100%;
+	display: inline-block
+}
+.orders h4 {
+	width: 100%;
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+}
+.orders span {
+	color: #fff;
+	line-height: 1px;
+	font-size: 12px;
+}
+.show-times {
+	text-align: right;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+.show-times i {
+	color: #fff;
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+.order-details {
+	background: #fff;
+	display: inline-block;
+	height: auto;
+	width: 98%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.order-details p {
+	color: #444;
+	line-height: 35px;
+	font-size: 13px;
+	font-weight: 500;
+	border-bottom: 1px solid #ddd;
+}
+.order-details h5 {
+	color: #444;
+	line-height: 35px;
+	font-size: 15px;
+	font-weight: 700;
+	border-bottom: 1px dotted #ddd;
+}
+.order-details h6 {
+	color: #444;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.order-details h4 {
+	color: #444;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: 500;
+	border-top: 1px dotted #ddd;
+}
+.contact-details h2 {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.mail-head1 {
+	background: #444;
+	display: inline-block;
+	height: auto;
+	width: 100%;
+}
+.mail-head1 span {
+	color: #fff;
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: 600;
+}
+.mail-head1 p {
+	color: #ccc;
+	font-size: 12px;
+	margin: 20px;
+	line-height: 0px;
+	font-weight: 600;
+	text-align: right;
+}
+.overlay {
+        background: rgba(0, 0, 0, 0.6);
+    display: block;
+    width: 86%;
+    height: 59%;
+    position: absolute;
+    left: 20px;
+    top: 5px;}
+    
+    @media (max-width:480px){
+.inner-carousel {
+    height: 10%;
+	overflow: hidden;
+}
+.inner-carousel img {width:100%; height:100%; margin:-10px 0px 0px}
+}
+    @media (min-width:481px) and (max-width:767px){
+.inner-carousel {
+    height: 25%;
+    overflow: hidden;
+}
+.inner-carousel img {width:100%; height:100%; margin:-30px 0px 0px}
+}
+    
+.booking-heading{color:#fff; position:absolute;left:10%; top:35%; text-transform:uppercase; font-weight:600}
+.booking-heading a{color:#FF0; font-size:20px;}

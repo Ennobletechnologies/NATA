@@ -1,0 +1,171 @@
+*{font-family:"Raleway"; font-size:13px;}
+#evencal{
+		box-shadow:0px 0px 2px 2px #C33}
+
+#evencal div.calendar{
+	
+}
+
+#evencal div.event_detail{
+	float:left;
+	width:500px;
+}
+
+.calendar h2{font-weight:500;color:#FFF;font-size:20px;padding:8px 0;margin: 0; background:#C33; text-align:center; }
+select{
+	min-width: 50px;
+}
+
+table.date {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	margin-top:-17px;
+	margin-left: 2px;
+}
+.date th {
+	border: 1px solid #C2C2C2;
+	text-transform: uppercase;
+	background-color:#E4E4E4;
+	font-size: 80%;
+	color:#666;
+	height:15px;
+}
+.date td {
+	border: 1px solid #C2C2C2;
+	height:34px;
+	width: 36px;
+	vertical-align: top;
+}
+.date caption {
+	font-size: 14px;
+	font-weight:600;
+	text-transform:uppercase;
+	background:#C2C2C2;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color:#333;}
+caption a{ color:#333;}
+a{
+	text-decoration:none;
+}
+
+a.prev_date, a.next_date{
+	font-size:9px;
+}
+a.prev_date{ margin-right:30px;}
+ a.next_date{margin-left:30px;}
+
+div.active_date_event, div.date_event,
+div.active_no_event, div.no_event{
+	width:inherit;
+	height:inherit;
+	cursor:pointer;
+}
+
+div.active_date_event:hover, div.date_event:hover,
+div.active_no_event:hover, div.no_event:hover{
+	background-color: rgba(204, 51, 51, 0.7);
+	color:#FFF;
+}
+
+	
+div.active_date_event{
+	background-color: #FF7575;
+}
+
+div.active_no_event{
+	background-color: #80FFBF;
+}
+
+span.date{
+	font-weight:600;
+	text-align:left;
+	padding-left:5px;
+height: 1em;
+	display:block;
+}
+
+span.event{
+	font-size: 12px;
+	text-align:center;	
+    color: #C33;
+    display: block;
+    font-weight: bold;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 7px;
+    width: 20px;
+}
+
+.weekend_sat {
+	background-color: #F3F3F3;
+}
+.weekend_sun {
+	background-color: #FFE5E5;
+}
+
+.require{
+	color: red;
+}
+
+.error_require{
+	background-color: #ffd2d4;
+}
+
+.spacer{
+	clear:both;
+	color:red;
+	text-align:center;
+	font-size:12px;
+	padding: 3px;
+}
+
+.add_event {
+	cursor:pointer;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 3px 8px 3px 25px;
+	background: #01b9ec url('images/add.png') no-repeat 5px center;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #01b9ec;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+	margin: 10px 0 0 22px;
+}
+
+/* from : http://www.paulund.co.uk/ */
+.info1,.info2,.message{margin:5px 20px 5px 20px; padding:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-moz-box-shadow: 4px 4px #dfe1d8;-webkit-box-shadow: 4px 4px #dfe1d8;box-shadow: 4px 4px #dfe1d8;}
+
+.detail_event h4 { margin:5px 5px 5px 50px;padding:0; font-size:16px; }
+h4 img.edit, h4 img.delete{float:right; padding: 2px 5px 0 5px; cursor:pointer;}
+.detail_event p { font-size: 12px;color: #000;margin: 5px 5px 5px 50px;}
+
+.info1{border:1px solid #9d9c49;color:#9d9c49;background:#fdfdcb url('images/warning.png') no-repeat; background-position:10px center;}
+.info2{border:1px solid #0e7fad;color:#0e7fad;background:#c0e9fa url('images/info.png') no-repeat; background-position:10px center;}
+.message{border:1px solid #000;color:#000;background:#efefef url('images/message.png') no-repeat; background-position:10px center;}
+.email_color
+{
+position:absolute;
+left:30%;
+top:56%;
+color:green;
+font-weight:bold;
+}
+
+/* own css */
+.required p{
+  color: #F00;
+  font-weight: 600;
+}

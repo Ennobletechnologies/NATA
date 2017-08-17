@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px
+}
+.mt10 {
+	margin-top: 10px
+}
+.mt20 {
+	margin-top: 20px
+}
+.mt40 {
+	margin-top: 40px
+}
+.mt50 {
+	margin-top: 50px
+}
+.mt60 {
+	margin-top: 60px
+}
+.mt80 {
+	margin-top: 80px
+}
+.mt100 {
+	margin-top: 100px
+}
+.mb10 {
+	margin-bottom: 10px
+}
+.mb20 {
+	margin-bottom: 20px
+}
+.mb40 {
+	margin-bottom: 40px
+}
+.mb60 {
+	margin-bottom: 60px
+}
+.mb80 {
+	margin-bottom: 80px
+}
+.mb100 {
+	margin-bottom: 100px
+}
+.pt10 {
+	padding-top: 10px
+}
+.pt20 {
+	padding-top: 20px
+}
+.pt40 {
+	padding-top: 40px
+}
+.pb10 {
+	padding-bottom: 10px
+}
+.pb20 {
+	padding-bottom: 20px
+}
+.pb40 {
+	padding-bottom: 40px
+}
+.bold {
+	font-weight: 600
+}
+.event-menu a {
+	border: 1px solid #ddd;
+	display: block;
+	width: 10%;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 12px;
+	color: #FFF;
+	text-decoration: none;
+	background: #F33;
+}
+@media (min-width:320px) and (max-width:640px) {
+.event-menu a {
+	width: 40%
+}
+}
+.thumbnail {
+}
+.date-price {
+	position: absolute;
+	top: 40%;
+	color: #FFF;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+	width: 90%;
+}
+.date-price a {
+	color: #FFF;
+	text-decoration: none
+}
+.dates {
+	width: 40%;
+	border: 1px solid #ddd;
+	padding: 15px 5px;
+	border: 1px solid rgba(255,255,255,.5);
+	transition: all ease-in .2s;
+	display: inline-block;
+}
+.prices {
+	display: inline-block;
+	width: 40%;
+	border: 1px solid rgba(255,255,255,.5);
+	padding: 15px 5px;
+	transition: all ease-in .2s;
+}
+.dates:hover, .prices:hover {
+	background: rgba(255,255,255,.2);
+	border-color: rgba(255,255,255,1)
+}
+.event-details {
+	height: 125px;
+}
+.event-name {
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-weight: 400;
+	color: #666;
+}
+.booking-btn .btn {
+	border: 1px solid #FF8080;
+	background: #C33;
+	color: #FFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 12px;
+	transition: all .2s ease-in;
+	font-weight: 500;
+}
+.booking-btn .btn:hover {
+	background: #C44
+}
+.booking-btn {
+/*text-align: right !important;
+	padding-right: 10px;*/
+}
+.inner-carousel {
+	height: 30%;
+	overflow: hidden;
+}
+.inner-slider img {
+	width: 100%;
+}
+.event-heading {
+	display: block;
+	position: absolute;
+	top: 7%;
+	color: #FFF;
+}
+.event-heading > h5 {
+	color: #CCC;
+	font-weight: 400
+}
+.event-heading > p a {
+	color: #FFF
+}
+.tickets-tab {
+	padding: 10px 0px;
+}
+.tickets-tab a {
+	border-bottom: 2px solid #096;
+	color: #333;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+}
+ul, li, p {
+	font-size: 13px;
+	font-weight: 400
+}
+.table-events.table.table-striped tbody td:first-child {
+	font-weight: 600;
+	color: #399
+}
+.table-events.table.table-striped tbody td {
+	padding: 20px 10px;
+}
+.hint {
+	color: #999;
+	font-size: 12px;
+	padding: 5px 0px;
+	line-height: 10px
+}
+.navigarion hr {
+	border-color: #CCC
+}
+.breadcrumb {
+	color: #666
+}
+.contact-heading {
+	border-bottom: 2px solid #44A7AC;
+	color: #2B757D;
+	padding-bottom: 10px;
+}
+form .input-md {
+	height: 40px;
+	font-size: 12px;
+	letter-spacing: .5px;
+	font-weight: 600
+}
+.contact-details, .order-summary {
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+.order-summary h2 {
+	margin-top: 0px;
+}
+.order-summary table {
+	margin-bottom: 0px;
+}
+.order-summary .table.table-striped td {
+	padding: 10px;
+}
+.order-summary .table.table-striped td .bold {
+	line-height: 20px;
+}

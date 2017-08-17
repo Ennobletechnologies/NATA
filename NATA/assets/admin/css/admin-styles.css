@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+h1, h2, h3, h4, h5 {margin:0px}
+.mb150{margin-bottom:150px}
+.mb300{margin-bottom:350px}
+.panel {margin-top:20px;}
+.panel .panel-heading h3{ display:inline-block;;}
+.panel.panel-primary .panel-heading{background:#E67979; border-color:#E67979;}
+.panel-primary {border-color:#E67979;}
+.input-group.date.form_datetime{margin-bottom:10px;}
+

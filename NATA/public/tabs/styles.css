@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+img { border:none; }
+
+.center {
+width:942px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.centerText {
+text-align:center;
+}
+
+/* ------------------------------ liens */
+a { color:#baee00; text-decoration:none; }
+a:link { color:#baee00; }
+a:visited { color:#baee00; }
+a:hover { color:#baee00; text-decoration:underline; }
+a:active { color:#baee00; }

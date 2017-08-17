@@ -1,0 +1,108 @@
+﻿/*Horizontal Orientation CSS*/
+.jscarousal-horizontal
+{
+	width:928px;
+	height: 141px;
+
+	margin: 0;
+	padding: 0;
+	padding: 0px 2px 0px 4px;
+	position: relative; /*overflow: hidden;*/
+}
+.jscarousal-horizontal-back, .jscarousal-horizontal-forward
+{
+	float: left;
+	width: 23px;
+	height:141px;
+	
+	color: White;
+	position: relative;
+
+	cursor: pointer;
+}
+.jscarousal-horizontal-back
+{
+	background-image: url(left_arrow.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	margin:4px 0px 0px 0px;
+}
+.jscarousal-horizontal-forward
+{
+	background-image: url(right_arrow.jpg);
+	background-repeat: no-repeat;
+	background-position: right;	margin:4px 0px 0px 0px;
+}
+.jscarousal-contents-horizontal
+{
+	width:880px;
+	height:141px;
+	float: left;
+	position: relative;
+	margin:4px 0px 0px 0px;
+	overflow: hidden;
+}
+.jscarousal-contents-horizontal > div
+{
+	position: absolute;
+	width: 100%;
+	height: 141px;
+}
+.jscarousal-contents-horizontal > div > div
+{
+	float: left;
+	margin-left:9px;
+	margin-right:6px;
+}
+.jscarousal-contents-horizontal img
+{
+	width:198px;
+	height:135px;
+	border: solid 1px #ddd;
+	padding:2px 2px 2px 2px;
+}
+.video_icon{ padding:0px; height:33px; width:33px; background-image:url(images/video.png); background-repeat:no-repeat; position:absolute; margin:55px 0px 0px 85px; z-index:1000;}
+
+.video_icon:hover{ padding:0px; height:33px; width:33px; background-image:url(images/video_hover.png); background-repeat:no-repeat; position:absolute;z-index:9999; margin:55px 0px 0px 85px;}
+
+
+.jscarousal-contents-horizontal img:hover
+{
+	width:198px;
+	height:135px;
+	border: solid 1px #ddd;
+	padding:2px;
+	opacity:0.6;
+}
+/*Horizontal Orientation CSS Ends*/
+
+
+/*Common*/
+.hidden
+{
+	display: none;
+}
+.visible
+{
+	display: block;
+}
+.thumbnail-active
+{
+	cursor: pointer;
+}
+.thumbnail-inactive
+{
+	
+	cursor: pointer;
+}
+.thumbnail-text
+{
+	color: #7A7677;
+	font-weight: bold;
+	text-align: left;
+	display: block;
+	padding: 10px 2px 2px 0px;
+}
+
+
+

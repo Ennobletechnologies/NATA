@@ -1,0 +1,29 @@
+.bootstrap-touchspin input {
+	border-top: 1px solid #179163;
+	border-bottom: 1px solid #179163;
+	border-left: none;
+}
+.bootstrap-touchspin-down, .bootstrap-touchspin-up {
+	background: #FFF;
+	border: 1px solid #179163;
+	border-right: none;
+	background: #179163;
+	border-radius: 0px;
+	font-size: 24px;
+	padding: 1px 14px;
+	color: #FFF;
+	transition: all ease-in .2s;
+}
+.bootstrap-touchspin .form-control{height:38px; font-weight:600}
+
+.bootstrap-touchspin-down:hover, .bootstrap-touchspin-up:hover {
+	background:#0E7059;
+	color: #FFF;
+}
+.bootstrap-touchspin .input-group {
+	position: relative;
+	white-space: nowrap;
+	width: 1%;
+	vertical-align: middle;
+	display: table-cell;
+}

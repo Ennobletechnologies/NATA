@@ -1,0 +1,313 @@
+* {
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 14px;
+}
+#evencal div.event_detail {
+	float: left;
+	width: 500px;
+}
+select {
+	min-width: 50px;
+}
+table.date {
+	border: 1px solid #999;
+	border-collapse: collapse;
+}
+.date th {
+	border: 1px solid #C2C2C2;
+	text-transform: uppercase;
+	background-color: #E4E4E4;
+	font-size: 80%;
+	color: #666;
+	height: 15px;
+	text-align: center;
+}
+.date td {
+	border: 1px solid #C2C2C2;
+	height: 36px;
+	width: 36px;
+	vertical-align: top;
+}
+.date caption {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: #C2C2C2;
+	text-align: center;
+	color: #333;
+}
+.date caption a {
+	color: #666;
+	text-transform: capitalize;
+	font-weight: normal
+}
+.date caption a.prev_date, .date caption a.next_date {
+	font-size: 12px;
+	text-decoration: none
+}
+.date caption a.prev_date:hover, .date caption a.next_date:hover {
+	color: #000
+}
+
+.calendar h2 {
+	background:#c33; display:inline-block;
+    color: #FFF;
+    font-size: 18px;
+    padding: 5px 10px;
+	margin-top: 5px;
+    border-bottom: 2px solid #C00;
+    margin-bottom: 10px;
+}
+.current-months {
+	padding: 0px 10px;
+	text-align: center
+}
+.calendar-big {
+	margin-bottom: 20px
+}
+.date-big td {
+	border: 1px solid #C2C2C2;
+	height: 75px;
+	width: 120px;
+}
+.date-big {
+	font-size: 16px;
+	padding: 0px 5px;
+	font-weight: 500;
+}
+.date-big caption {
+	text-align: center;
+	margin-top: -18px;
+	background: #DDD;
+}
+.date-big caption .current-month {
+	margin: 1px;
+	padding: 4px 30px 7px;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #FFF;
+	background: #C00;
+}
+.date-big caption a {
+	color: #FFF;
+	text-decoration: none;
+	background: #C66;
+	padding: 10px;
+}
+.date-big caption a:hover {
+	color: #FFF;
+	background: #C00
+}
+.date-big caption a.prev_date, .date-big caption a.next_date {
+}
+.date-big caption a.prev_date {
+}
+.date-big caption a.next_date {
+}
+.date-big thead th {
+	color: #666;
+	text-align: center;
+	padding: 5px;
+	background: #eee;
+	text-transform: uppercase;
+}
+div.active_date_event, div.date_event, div.active_no_event, div.no_event {
+	width: inherit;
+	height: inherit;
+	cursor: pointer;
+}
+.cal-popup {
+	width: 500px;
+	height: 135px;
+	overflow: auto;
+	color: #C00;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.cal-popup .event-list {
+	text-align: left !important;
+	padding: 8px;
+}
+.cal-popup .event-list a {
+	color: #333;
+	text-transform: capitalize;
+	font-weight: 400;
+	text-decoration: none;
+	display: block
+}
+.cal-popup .event-list:hover {
+	color: #333;
+	background: #CCC;
+}
+.event-list:nth-child(odd) {
+	background: #F0F0F0;
+	border-bottom: 1px solid #DDD;
+}
+.event-list:nth-child(even) {
+	background: #F6F6F6;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+div.active_date_event:hover, div.date_event:hover, div.active_no_event:hover, div.no_event:hover {
+	background-color: rgba(204, 51, 51, 0.7);
+	color: #FFF;
+}
+div.active_date_event {
+	background-color: #FF7575;
+}
+div.active_no_event {
+	background-color: #80FFBF;
+}
+span.date {
+	font-weight: 600;
+	text-align: left;
+	padding-left: 5px;
+	eight: 1em;
+	display: block;
+}
+.date_event {
+	background: #090;
+	color: #FFF
+}
+span.event {
+	font-size: 12px;
+	text-align: center;
+	color: #0F0;
+	display: block;
+	font-weight: bold;
+	height: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	width: 20px;
+}
+span.event1 {
+	font-size: 12px;
+	text-align: center;
+	color: #000;
+	margin: 35px 0px 0px 100px;
+	display: block;
+	font-weight: bold;
+	width: 20px;
+}
+.weekend_sat {
+	background-color: #F3F3F3;
+}
+.weekend_sun {
+	background-color: #FFE5E5;
+}
+.require {
+	color: red;
+}
+.error_require {
+	background-color: #ffd2d4;
+}
+.spacer {
+	clear: both;
+	color: red;
+	text-align: center;
+	font-size: 12px;
+	padding: 3px;
+}
+.add_event {
+	cursor: pointer;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 5px 10px 5px 30px;
+	background: #090 url('images/add.png') no-repeat 5px center;
+	border: 2px solid #008000;
+	margin: 10px 0 0 22px;
+	font-weight: 600;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.1);
+	border-radius: 5px;
+}
+/* from : http://www.paulund.co.uk/ */
+.info1, .info2, .message {
+	margin: 5px 20px 5px 20px;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 4px 4px #dfe1d8;
+	-webkit-box-shadow: 4px 4px #dfe1d8;
+	box-shadow: 4px 4px #dfe1d8;
+}
+.detail_event h4 {
+	margin: 5px 5px 5px 50px;
+	padding: 0;
+	font-size: 16px;
+}
+h4 img.edit, h4 img.delete {
+	float: right;
+	padding: 2px 5px 0 5px;
+	cursor: pointer;
+}
+.detail_event p {
+	font-size: 12px;
+	color: #000;
+	margin: 5px 5px 5px 50px;
+}
+.info1 {
+	border: 1px solid #CCC;
+	color: #9d9c49;
+	background: #fdfdcb url('images/warning.png') no-repeat;
+	background-position: 10px center;
+}
+.info2 {
+	border: 1px solid #0e7fad;
+	color: #0e7fad;
+	background: #c0e9fa url('images/info.png') no-repeat;
+	background-position: 10px center;
+}
+.message {
+	border: 1px solid #CCC;
+	color: #000;
+	background: #efefef url('images/message.png') no-repeat;
+	background-position: 10px center;
+}
+.email_color {
+	position: absolute;
+	left: 30%;
+	top: 56%;
+	color: green;
+	font-weight: bold;
+}
+.required p {
+	color: #F00;
+	font-weight: 600;
+}
+ @media (min-width: 320px) and (max-width: 640px) {
+.date-big td {
+	width: 40.5px;
+	height: 35px;
+}
+.date-big {
+	font-size: 12px;
+	font-weight: 600;
+	padding: 0 5px;
+}
+span.event1 {
+	margin: 32px 0px 0px 22px
+}
+}
+ @media (min-width: 768px) and (max-width: 1199px) {
+.calendar h2{font-size:18px; margin:0px; padding:5px;}
+.date td {width:29px; height:29px}
+.date-big {
+	margin: 0 auto
+}
+.date-big td {
+	width: 102px;
+	height: 80px;
+}
+
+.date-big {
+	font-size: 12px;
+	font-weight: 600;
+	padding: 0 5px;
+}
+span.event1 {
+	margin: 35px 0px 0px 80px
+}
+}
